@@ -32,5 +32,18 @@ function atualizarLista() {
   }
 }
 
+//Verifica se há amigos disponíveis para sortear
+if (amigos.length === 0) {
+  alert("Por favor, adicione amigos para sortear.");
+  Document.getElementById('resultado').innerHTML = "";
+} else {
+  
+}
+
+//Sorteia um amigo 
+function sortearAmigo (){
+  let amigoSorteado = amigos [Math.floor(Math.random() * amigos.length)];
+}
+
 
 
