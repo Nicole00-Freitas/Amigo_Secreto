@@ -1,14 +1,3 @@
-//Adicionar a biblioteca para ler o coteúdo da tela
-// if ('speechSynthesis' in window) {
-//     let utterance = new SpeechSynthesisUtterance(texto);
-//     utterance.lang = 'pt-BR'; 
-//     utterance.rate = 1.2; 
-//     window.speechSynthesis.speak(utterance); 
-// } else {
-//     console.log("Web Speech API não suportada neste navegador.");
-// }
-
-
 let amigos = [];
 
 //Adiciona amigo na lista 
@@ -25,16 +14,23 @@ function adicionarAmigo() {
 // Adiciona o nome ao array e limpa o campo de texto
     amigos.push(nome);
     digite.value = "";
+    atualizarLista();  
 }
 
 //Atualiza a lista de amigos
 function atualizarLista() {
   let lista = document.getElementById('listaAmigos');
   lista.innerHTML = "";
-
-  if(amigos === 0) {
-
+  
+  //Adiciona cada amigo na lista
+  let i = 0; //controla a variável de loop
+  while (i < amigos.length) {
+    let item = document.createElement('li'); 
+    item.textContent = amigos[i]; //adiciona o nome do amigo ao item da lista
+    lista.appendChild(item); //adiciona o item à lista
+    i++;
   }
 }
+
 
 
