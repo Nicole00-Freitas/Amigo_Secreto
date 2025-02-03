@@ -32,18 +32,19 @@ function atualizarLista() {
   }
 }
 
-//Verifica se há amigos disponíveis para sortear
+function sorteiaAmigo(){
+  //Verifica se há amigos disponíveis para sortear
 if (amigos.length === 0) {
-  alert("Por favor, adicione amigos para sortear.");
-  Document.getElementById('resultado').innerHTML = "";
-} else {
+  document.getElementById('resultado').innerHTML = "Nenhum amigo disponível";
   
+} else {
+  //Sorteia um amigo
+  let amigoSorteado = amigos [Math.floor(Math.random() * amigos.length)];
+  document.getElementById('resultado').innerHTML = amigoSorteado;
 }
 
-//Sorteia um amigo 
-function sortearAmigo (){
-  let amigoSorteado = amigos [Math.floor(Math.random() * amigos.length)];
 }
+sorteiaAmigo();
 
 
 
