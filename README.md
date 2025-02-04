@@ -32,6 +32,7 @@
 
 
 # 📷 Capturas de Tela
+
 ![GIF-AmigoSecreto](Amigo_Secreto_GIF.gif)
 
 # 💻 Como Executar o Projeto
@@ -47,4 +48,4 @@
 # 📜 Licença
 Este projeto é de uso livre para estudos e melhorias.
 
-
+[Meu site no GitHub] (https://nicole00-freitas.github.io/Amigo_Secreto/)
