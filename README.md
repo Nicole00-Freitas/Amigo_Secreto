@@ -46,3 +46,5 @@
 
 # 📜 Licença
 Este projeto é de uso livre para estudos e melhorias.
+
+
