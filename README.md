@@ -33,7 +33,7 @@
 
 # 📷 Capturas de Tela
 
-![GIF-AmigoSecreto](Amigo_Secreto_GIF.gif)
+![GIF-AmigoSecreto](Amigo_Secreto.gif)
 
 # 💻 Como Executar o Projeto
  1. Clone este repositório:
