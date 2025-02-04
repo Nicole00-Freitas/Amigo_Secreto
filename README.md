@@ -1,6 +1,6 @@
 <h1 align="center"> 🎁 Jogo Amigo Secreto </h1>
 
-<p>*Bem-vindo ao desafio Amigo Secreto*! Um jogo simples com uma aplicação  divertida, que permite aos usuários cadastrarem nomes de amigos para realizar um sorteio aleatório e descobrir quem será o "amigo secreto". </p> 
+<p>Bem-vindo ao desafio Amigo Secreto! Um jogo simples com uma aplicação  divertida, que permite aos usuários cadastrarem nomes de amigos para realizar um sorteio aleatório e descobrir quem será o "amigo secreto". </p> 
 
 # 🎓 Créditos  
 <p>Este projeto faz parte dos desafios propostos no curso da ONE (Oracle Next Education), em parceria com a Alura, para reforçar os conceitos de manipulação do DOM e funções em JavaScript.</p>
@@ -25,6 +25,7 @@
 # 📂 Estrutura do Projeto
 
 ./Amigo-Secreto
+
 ── index.html     # Estrutura da página  
 ── style.css      # Estilos da página  
 ── app.js         # Código JavaScript do jogo  
@@ -46,5 +47,7 @@
 
 
 # 📜 Licença
-Este projeto é de uso livre para estudos e melhorias.
+Este projeto é de uso livre para estudos e melhorias. 
+
+[Meu site no GitHub](https://nicole00-freitas.github.io/Amigo_Secreto/)
 
