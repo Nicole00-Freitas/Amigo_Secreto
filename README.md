@@ -22,7 +22,7 @@
 - CSS
 - JavaScript
 
-##📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto
 
 ./Amigo-Secreto
 ── index.html     # Estrutura da página  
@@ -32,6 +32,7 @@
 
 
 # 📷 Capturas de Tela
+![GIF-AmigoSecreto](AmigoSecreto-GIF.gif)
 
 # 💻 Como Executar o Projeto
 
