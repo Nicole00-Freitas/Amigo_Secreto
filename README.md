@@ -35,6 +35,13 @@
 ![GIF-AmigoSecreto](AmigoSecreto-GIF.gif)
 
 # 💻 Como Executar o Projeto
+ 1. Clone este repositório:
+    git clone git@github.com:Nicole00-Freitas/Amigo_Secreto.git
+
+2. Acesse a pasta do projeto:
+    cd amigo-secreto
+
+3. Abra o arquivo index.html em seu navegador favorito.
 
 
 # 📜 Licença
