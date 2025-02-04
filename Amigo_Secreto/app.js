@@ -41,7 +41,7 @@ if (amigos.length === 0) {
 } 
 //Sorteia um amigo
 let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
-document.getElementById('resultado').innerHTML = amigoSorteado;
+document.getElementById('resultado').innerHTML = `O Amigo Secreto é: ${amigoSorteado}`;
 
  // Limpa a lista de amigos após o sorteio
  amigos = [];
