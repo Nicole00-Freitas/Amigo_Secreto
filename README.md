@@ -25,6 +25,7 @@
 # 📂 Estrutura do Projeto
 
 ./Amigo-Secreto
+
 ── index.html     # Estrutura da página  
 ── style.css      # Estilos da página  
 ── app.js         # Código JavaScript do jogo  
